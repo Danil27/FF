@@ -28,8 +28,8 @@ export const path = {
         js: `${srcFolder}/js/**/*.js`,
         scss: `${srcFolder}/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`, // наблюдение за всеми html фалами, где бы они не были
-        images: `{srcFolder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
-        svgicons: `{srcFolder}/svg/**/*.svg`,
+        images: `${srcFolder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
+        svgicons: `${srcFolder}/svg/**/*.svg`,
         files: `${srcFolder}/files/**/*.*` // наблюдатель за файлами 
     },
     clean: buildFolder,
