@@ -16,7 +16,7 @@ export const path = {
         files: `${buildFolder}/files/` // все файлы из папки с исходниками переносятся в папку с результатом
     }, // путь к папке с результатом
     src: {
-        js: `${srcFolder}/js/app.js`,
+        js: `${srcFolder}/js/**/*.js`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`, // можно продолжить список
         svg: `${srcFolder}/img/**/*.svg`,
         scss: `${srcFolder}/scss/style.scss`,
